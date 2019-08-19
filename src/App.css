@@ -6,8 +6,7 @@ html {
 }
 
 main {
-  background-color: rgba(255,255,0,0.3);
-  margin: 30px 0;
+  margin: 20vh 0;
 }
 
 /* =========== Nav styling ========= */
@@ -17,6 +16,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
+  background-color: rgba(0,0,0,0.3);
+  font-size: 18px;
 }
 
 nav #logo {
@@ -31,6 +32,10 @@ nav li {
   margin: 10px 20px;
 }
 
+nav a {
+  color: #FFFFFF;
+}
+
 a {
   text-decoration: none;
 }
@@ -43,30 +48,52 @@ a {
   align-items: center;
 }
 
+#home-text h1 {
+  font-size: 52px;
+}
+
+#home-text h2 {
+  font-size: 32px;
+}
+
+#home-text h3 {
+  font-size: 28px;
+}
+
 /* =========== Portfolio styling ========= */
 
 #portfolio {
+  text-align: center;
+  background-color: rgba(0,255,255,0.4);
+}
 
+#portfolio h2 {
+  font-size: 32px;
 }
 
 .site-info {
-  justify-content: space-around;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.site-info p {
   width: 50%;
 }
 
 .site-info img {
-}
-
-.site-info img {
-  width: 200px;
+  width: 15vw;
 }
 
 /* =========== About me styling ========= */
 
 #aboutme {
   display: flex;
-  justify-content: space-around;
-  align-items: start;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  background-color: rgba(255,255,0,0.3);
+  padding: 20px;
 }
 
 #aboutme img {
@@ -74,6 +101,6 @@ a {
 }
 
 .aboutme-text {
-  width: 50%;
+  width: 40%;
 }
 

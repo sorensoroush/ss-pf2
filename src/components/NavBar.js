@@ -7,7 +7,7 @@ const NavBar = () => {
         <a href="#">SS</a>
       </div>
       <ul>
-        <li><a href="#">Portfolio</a></li>
+        <li><a href="#main">Portfolio</a></li>
         <li><a href="#">About Me</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
