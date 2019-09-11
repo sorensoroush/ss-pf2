@@ -1,12 +1,32 @@
-html {
-  background: url(assets/ss-bg.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+* {
 }
 
-main {
-  margin: 20vh 0;
+html {
+  background: url(assets/ss-bg2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #0A001C;
+}
+
+body {
+  background-color: rgba(0,0,0,0.4);
+  animation: bg-fadein 1s ;
+  padding: 0;
+  margin: 0;
+} 
+
+.App {
+}
+
+section {
+  margin: 20vh auto;
+  width: 80vw;
+  background-color: rgba(75,0,130,0.5);
+  background-color: rgba(0,255,255,0.4);
+  background-color: rgba(102,101,221,0.3);
+  background-color: rgba(172,173,188,0.4);
 }
 
 /* =========== Nav styling ========= */
@@ -16,8 +36,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 10%;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   font-size: 18px;
+  margin: 0;
 }
 
 nav #logo {
@@ -26,10 +47,12 @@ nav #logo {
 nav ul {
   list-style-type: none;
   display: flex;
+  padding: 0;
 }
 
 nav li {
   margin: 10px 20px;
+  padding: 0;
 }
 
 nav a {
@@ -46,6 +69,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #FFFFFF;
+  margin: 20vh 0;
 }
 
 #home-text h1 {
@@ -57,33 +82,38 @@ a {
 }
 
 #home-text h3 {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 /* =========== Portfolio styling ========= */
 
 #portfolio {
   text-align: center;
-  background-color: rgba(0,255,255,0.4);
+  padding: 10px;
 }
 
 #portfolio h2 {
   font-size: 32px;
 }
 
+#portfolio h3 {
+  padding-top: 30px;
+}
+
 .site-info {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 20px;
 }
 
 .site-info p {
-  width: 50%;
+  width: 30%;
+  margin-left: 7%;
 }
 
 .site-info img {
-  width: 15vw;
+  width: 20vw;
 }
 
 /* =========== About me styling ========= */
@@ -91,9 +121,9 @@ a {
 #aboutme {
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-end;
-  background-color: rgba(255,255,0,0.3);
+  align-items: center;
   padding: 20px;
+  margin-bottom: 0;
 }
 
 #aboutme img {
